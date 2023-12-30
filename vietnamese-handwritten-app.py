@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+import torch
 from vietocr.tool.predictor import Predictor
 from vietocr.tool.config import Cfg
 from load_css import local_css
