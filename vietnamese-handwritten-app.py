@@ -18,6 +18,7 @@ def load_model(model_version, weights_file):
     detector = Predictor(config)
     return detector
 
+device = torch.device("cpu")
 
 def main():
     st.set_page_config(page_title="Vietnamese Handwritten By Line App",layout="wide")
